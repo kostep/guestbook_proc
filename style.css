@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding:0;
+    border: 0;
+
+}
+body{
+    padding: 2% 0 0 0;
+    background:  #f0f8ff;
+    color: #000000;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+#container{
+    width: 760px;
+    height: 100%;
+    margin: 0 auto;
+    border: 0;
+}
+#header{
+    background-color: #ffc0cb;
+    width: 760px;
+    height: 158px;
+    border: 0;
+}
+
+#upper{
+    background-color: #ffe5b5;
+    width: 760px;
+    height: 800px;
+    border: 0;
+}
+#under{
+    background-color: #e0ffff;
+    width: 760px;
+    height: 400px;
+    border: 0;
+}
+#footer{
+    background-color: #9acd32;
+    width: 760px;
+    height: 158px;
+    border: 0;
+}
+#form_entry{
+    width:100%;
+    height:65%;
+    margin: 0 0 0 0;
+    border: 0;
+}
+/*Классы для повторяющихся блоков div*/
+.entry_container{
+    width:100%;
+    height:15%;
+}
+.entry_left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.entry_right{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#error_box{
+    width: 100%;
+    height:35%;
+}
+.form_one{
+    height: 100%;
+}
+.form_inner_box{
+    width: 100%;
+    height: 10%;
+}
+.form_inner_textarea_box{
+    width: 100%;
+    height: 20%;
+}
+.form_left_box{
+    float: left;
+    width: 50%;
+    padding: 5px 0 0 0;
+}
+.form_right_box{
+    float: left;
+    width: 50%;
+    padding: 5px 0 0 0;
+}
+.form_textarea_box{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 5px 0 0 0;
+}
+.form_captcha_text_box{
+    float: left;
+    width: 20%;
+    padding: 5px 0 0 0;
+}
+.form_captcha_image_box{
+    float: left;
+    width: 20%;
+    padding: 0 0 0 0;
+}
+.form_button_box{
+    float: right;
+    width: 50%;
+    padding: 0 0 0 0;
+    text-align: right;
+}
+
+/*Тут цвет для выделения текста или ещё чего-то*/
+.red_color{
+    color: #ff0000;
+}
+
+/* Здесь классы для шрифтов*/
+
+.username{
+    font: normal bold 12pt Arial;
+}
+.email{
+    font: normal 11pt Arial;
+}
+.site{
+    font: normal 11pt Arial;
+}
+.entry_text{
+    font: normal 10pt Arial;
+
+}
+.entry_date{
+    font: normal italic 10pt Arial;
+}
+.error_text{
+    font: normal 10pt Verdana;
+    color: #ff0000;
+}
+.form_success_text{
+    text-align: center;
+}
+/*Здесь классы для шрифтов-заголовков*/
+.username_title{
+    font: normal 10pt Verdana;
+}
+.email_title{
+    font: normal 10pt Verdana;
+}
+.site_title{
+    font: normal 10pt Verdana;
+}
+.entry_text_title{
+    font: normal 9pt Verdana;
+    text-align: left;
+
+}
+.entry_date_title{
+    font: normal italic 10pt Verdana;
+}
+/*Здесь классы для шрифтов-ссылок*/
+.links{
+    font: normal italic 10pt Arial;
+    text-align: center;
+}
+/*Класс для шрифтов формы*/
+.form_title{
+    font: normal italic 10pt Verdana;
+}
+.form_input{
+    font: normal italic 10pt Verdana;
+}
+/*Класс для кнопок, из-за того что в начале самом-самом начале я поставил border/margin/padding как-бы изначальный = 0 ,
+то кнопка была плоская и без границ*/
+.button_style_1{
+    font: normal 10pt Verdana;
+    border: 1px solid #808080;
+    margin: 2% 2% 2% 2%;
+    padding: 2% 2% 2% 2%;
+}
+
